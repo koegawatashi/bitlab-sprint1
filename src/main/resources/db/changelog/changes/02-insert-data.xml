@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="2" author="sprint1">
+        <insert tableName="courses">
+            <column name="name" value="Java Programming"/>
+            <column name="description" value="Learn Java programming from scratch"/>
+            <column name="price" value="99.99"/>
+        </insert>
+        <insert tableName="courses">
+            <column name="name" value="Spring Boot"/>
+            <column name="description" value="Master Spring Boot framework"/>
+            <column name="price" value="149.99"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog> 
